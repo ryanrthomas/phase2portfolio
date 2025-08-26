@@ -19,8 +19,8 @@ const Home = () => {
         <img src="/images/IMG_0636.jpg" alt="Ryan Thomas"
              className="w-32 h-32 object-cover flex-shrink-0 border border-gray-300" />
         <div className="flex-1">
-          <h2 className="text-xl font-normal mb-3">Ryan Thomas - A Software Engineer*</h2>
-          <p className="text-lg leading-relaxed mb-4">
+          <h2 className="text-2xl font-normal mb-3">Ryan Thomas - A Software Engineer*</h2>
+          <p className="text-xl leading-relaxed mb-4">
             Hi, my name is Ryan Thomas, an aspiring* software engineer from The Bronx.<br/>
             I'm passionate about creating digital solutions and turning ideas into reality through code.
           </p>
@@ -39,7 +39,7 @@ const Home = () => {
 
       {/* Quick Stats */}
       <div className="mb-8">
-        <h3 className="text-lg font-normal underline mb-3">Quick Stats</h3>
+        <h3 className="text-xl font-normal underline mb-3">Quick Stats</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {quickStats.map((stat, index) => (
             <div key={index} className="text-center p-3 border border-gray-300 bg-gray-50">
@@ -54,30 +54,30 @@ const Home = () => {
 
       {/* Current Focus */}
       <div className="mb-8">
-        <h3 className="text-lg font-normal underline mb-3">Currently...</h3>
+        <h3 className="text-xl font-normal underline mb-3">Currently...</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <h4 className="font-semibold mb-2">🎯 Learning</h4>
-            <p className="text-lg">Expanding my skillset through intensive coding bootcamp and building real-world applications.</p>
+            <p className="text-xl">Expanding my skillset through intensive coding bootcamp and building real-world applications.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2">🚀 Building</h4>
-            <p className="text-lg">Working on exciting projects including a League of Legends community platform and financial literacy tools.</p>
+            <p className="text-xl">Working on exciting projects including a League of Legends community platform and financial literacy tools.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2">🎮 Playing</h4>
-            <p className="text-lg">Dominating in League of Legends, Valorant, and the latest Marvel Rivals when I need a break from coding.</p>
+            <p className="text-xl">Dominating in League of Legends, Valorant, and the latest Marvel Rivals when I need a break from coding.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2">📚 Reading</h4>
-            <p className="text-lg">Collecting and reading manga, currently obsessed with Jujutsu Kaisen and catching up on Solo Leveling.</p>
+            <p className="text-xl">Collecting and reading manga, currently obsessed with Jujutsu Kaisen and catching up on Solo Leveling.</p>
           </div>
         </div>
       </div>
 
       {/* Featured Skills */}
       <div className="mb-8">
-        <h3 className="text-lg font-normal underline mb-3">Core Technologies</h3>
+        <h3 className="text-xl font-normal underline mb-3">Core Technologies</h3>
         <div className="flex flex-wrap gap-2">
           {featuredSkills.map((skill, index) => (
             <span key={index} 
@@ -90,8 +90,8 @@ const Home = () => {
 
       {/* Call to Action */}
       <div className="bg-gray-50 p-6 border border-gray-300">
-        <h3 className="text-lg font-normal mb-3">Let's Connect!</h3>
-        <p className="text-lg leading-relaxed mb-4">
+        <h3 className="text-xl font-normal mb-3">Let's Connect!</h3>
+        <p className="text-xl leading-relaxed mb-4">
           I'm always excited to discuss new opportunities, collaborate on projects, or just chat about technology, gaming, or anime. 
           Feel free to explore my work and reach out!
         </p>

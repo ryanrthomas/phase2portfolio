@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section className="mt-4">
-      <h2 className="text-xl font-normal mb-4">My Projects</h2>
+      <h2 className="text-2xl font-normal mb-4">My Projects</h2>
       <div className="flex gap-3 mb-4">
         {projects.map((project) => (
           <button
@@ -53,9 +53,9 @@ const Projects = () => {
           {projects.map((project) => (
             activeProject === project.id && (
               <div key={project.id}>
-                <h3 className="text-lg font-normal underline mb-2">{project.title}</h3>
-                <p className="mb-2">{project.description}</p>
-                <p className="mb-2"><strong>Technologies Used:</strong> {project.technologies}</p>
+                <h3 className="text-xl font-normal underline mb-2">{project.title}</h3>
+                <p className="mb-2 text-xl">{project.description}</p>
+                <p className="mb-2 text-xl"><strong>Technologies Used:</strong> {project.technologies}</p>
                 <div className="flex gap-4">
                   <a href={project.github} target="_blank" rel="noopener noreferrer" 
                      className="text-blue-600 hover:text-green-600 underline">
