@@ -44,7 +44,7 @@ const About = () => {
         <div>
           <h3 className="text-xl font-normal underline">Resume</h3>
           <p className="text-xl leading-relaxed">
-            Here's the link to <a href="#" className="text-blue-600 hover:text-green-600 underline" target="_blank">my resume</a>!
+            Here's the link to <a href="../resume/Resume - 10.2025.pdf" className="text-blue-600 hover:text-green-600 underline" target="_blank">my resume</a>!
           </p>
         </div>
       </div>
